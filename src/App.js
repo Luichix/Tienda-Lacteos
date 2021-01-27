@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './component/home'
+import Header from './component/header'
 import Login from './component/login'
 import { auth } from './database/firebase';
 import { useStateValue } from './redux/StateProvider';
@@ -36,7 +37,9 @@ function App () {
           <Route path='/login'>
             <Login/>
           </Route>
-          <Route path='/' exact component={Home}>
+          <Route path='/' exact>
+            <Header/>
+            <Home/>
           </Route>
         </Switch>
     </Router>
