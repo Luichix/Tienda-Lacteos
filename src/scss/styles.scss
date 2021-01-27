@@ -1,0 +1,9 @@
+// Import Custom Variables
+@import "variables.scss";
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+
+// Import Custom SCSS
+@import "_global.scss";
+@import "./styles/login.css"
