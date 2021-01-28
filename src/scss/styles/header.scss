@@ -5,7 +5,7 @@
     display: flex;
     justify-content:left;
     align-items: center;
-    margin: 2em;
+    margin: 3em;
     height: 50px;
     -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
@@ -85,63 +85,57 @@
 
  #navi {
     display: flex;
-    margin-top: 4.8em;
+    margin-top: 5.8em;
     margin-left: 5.5em;
-    margin-right: 15em;
+    margin-right: 10em;
     height: 50px;
-    background:rgb(00,238,236);
+    background:rgb(240,238,236);
     opacity: 0.7;
     border-radius: 0.15em;
 }
 
-.header_optionNav {
-    padding-top: 0.5em;
-    padding-left: 3em;
-    color: black;
-    display: flex;
-    align-items: center;
+.nav_ref{
+    font-size: 0.75em;
+    margin-left: 2.5rem;
     font-weight: 700;
 }
 
-@media (max-width: 1000px) {
-}
+// @media (max-width: 800px) {
+//     #navi {
+//         margin-left: 3.5em;
+//         height: 50px;
+//     }
+    
+//     .nav_ref{
+//         font-size: 0.6em;
+//         margin-left: 0.2rem;
+//         font-weight: 700;
+//     }
+       
+//   }
 
+//   @media (max-width: 620px) {
+//     #navi {
+//         margin-left: 3.5em;
+//         height: 50px;
+//         margin-right: 5em;
+//     }
+       
+//   }
 
-.header_optionLineOne {
-    font-size: 10px;
-}
-
-.header_optionLineTwo {
-    font-size: 13px;
-    font-weight: 800;
-}
-
-.header_optionBasket {
-    display: flex;
-    align-items: center;
-    color: black;
-    margin-top: 5px;
-}
-
-.header_basketCount {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.header_option {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    margin-right: 10px;
-    color: black;
-} 
-
-.header_nav {
-    background-color: red;
-    color: red;
-    display: flex;
-    margin-left: auto;
-    align-content: flex-end;
-    align-items: center;
-    ;
-}
+//   @media (max-width: 530px) {
+//     #navi {
+//         margin-left: 2.5em;
+//         height: 50px;
+//         margin-right: 5em;
+//         text-align: left;
+//         width: auto;
+//     }
+//     .nav_ref{
+//         font-size: 0.5em;
+//         margin-left: 0.1rem;
+//         font-weight: 700;
+//     }
+//   }
+//   @media (max-width: 425px) {
+//   }

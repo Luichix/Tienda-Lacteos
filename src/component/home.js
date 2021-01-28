@@ -7,10 +7,8 @@ import Carousel from './carousel'
 function Home () {
   return (
             <Router >
-
                 <Carousel/>
                 <Main/>
-                <Carousel/>
                 <Footer/>
             </Router>
   )
