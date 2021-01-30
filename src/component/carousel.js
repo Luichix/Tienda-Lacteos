@@ -1,39 +1,7 @@
 import React from 'react'
 import { FaFacebook, FaTelegramPlane, FaMailBulk, FaInstagram, FaWhatsapp, FaShoppingBasket } from 'react-icons/fa'
-import { Carousel } from 'react-bootstrap'
-import banner1 from '../assets/quesos1.jpeg'
-import banner2 from '../assets/quesos2.jpg'
-import banner3 from '../assets/quesos3.jpg'
-
+  
 function slideCard () {
-  ///// Section-1 CSS-Slider /////
-  // Auto Switching Images htmlFor CSS-Slider
-  // function bannerSwitcher() {
-  //   next = $('.sec-1-input').filter(':checked').next('.sec-1-input');
-  //   if (next.length) next.prop('checked', true);
-  //   else $('.sec-1-input').first().prop('checked', true);
-  // }
-
-  // var bannerTimer = setInterval(bannerSwitcher, 5000);
-
-  // $('nav .controls label').click(function() {
-  //   clearInterval(bannerTimer);
-  //   bannerTimer = setInterval(bannerSwitcher, 5000)
-  // });
-
-
-///// Anchor Smooth Scroll /////
-//   $('.main-menu a, .learn-more-button a').click(function(e){
-
-//     e.preventDefault();
-
-//     var target = $(this).attr('href');
-
-//     $('html, body').animate({scrollTop: $(target).offset().top}, 1000);
-//     return false;
-//   });
-
-
   return (
 <div className="body-carousel">
   <header className="main-header">
